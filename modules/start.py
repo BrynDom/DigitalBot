@@ -8,7 +8,7 @@ from telebot.types import (
 
 from _bot import bot
 
-bot_name = environ.get('bot_name', 'Asisten DigitalOcean')
+bot_name = environ.get('bot_name', 'Asisstant VPS')
 
 
 def start(d: Message):
@@ -41,8 +41,8 @@ def start(d: Message):
         '/add_vps - create droplets\n' \
         '/sett_vps - manage droplets\n' \
         ' \n' \
-        '<b>Dev: @yha_bot</b>\n' \
-        '<b>Support: @fightertunnell</b>'
+        '<b>Dev: @Error403AccessDenied</b>\n' \
+        '<b>Support: @MutualanTelegram_id</b>'
     bot.send_message(
         text=t,
         chat_id=d.from_user.id,
